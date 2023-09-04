@@ -1,26 +1,27 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Page from './Page';
+import Canvas from './Canvas';
 
 function App() {
+
+  const [text,setText] = useState("")
+
+  const handleTextChange = event => {
+    setText(event.target.value)
+    console.log(event.target.value)
+  }
+
+  const draw = (ctx, frameCount) => {
+    /* resizeCanvasToDisplaySize(ctx.canvas) */
+    ctx.fillStyle = "#FF0000"
+    ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+  }
+
   return (
-    <div className="App">
-      <Page />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+    <div className='container'>
+      <textarea id='text' name='text' value={text} onChange={handleTextChange}>  </textarea>
+      <Canvas draw={draw} />
     </div>
   );
 }
