@@ -62,7 +62,12 @@ html, body {
   width: 100%;
   display: flex;
 }
-Canvas {
+canvas {
+  width: 65%;
+  height: 100vh;
+}
+
+.prova {
   width: 65%;
   height: 100vh;
 }
