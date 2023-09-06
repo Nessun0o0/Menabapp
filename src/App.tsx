@@ -17,14 +17,27 @@ function App() {
   return (
     <div className='container'>
       <textarea id='text' name='text' value={text} onChange={handleTextChange}>  </textarea>
-      
-      <TransformWrapper>
-        <TransformComponent>
+
           <div className={"prova"}>
-            <Page title={"bella"} content={"ecco qua vediamo se funziona"}/>
+            <Page className={"left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-left"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"c-right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            <Page className={"right"} title={"bella"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing "}/>
+            
           </div>
-        </TransformComponent>
-      </TransformWrapper>
+
     </div>
   );
 }
