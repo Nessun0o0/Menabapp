@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +44,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+textarea {
+  resize:none;
+  height:calc(100vh - 20px);
+  width:35%
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+canvas {
+  width: 65%;
+  height: 100vh;
+}
+
+.prova {
+  width: 65%;
+  height: 100vh;
 }
