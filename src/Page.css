@@ -1,14 +1,15 @@
 
 .A4 {  
-    background-color: lightgray;
+    background-color: #DAD7CD;
     box-sizing: border-box;
     padding: 10px;
     position: relative;
     width:90%;
+    max-width: 300px;
     aspect-ratio: 1/1.414;
     overflow: hidden;
     font-size: 1em;
     border: 0.2em solid;
-    border-color: black;
+    border-color: #344E41;
     align-self: center;
   }

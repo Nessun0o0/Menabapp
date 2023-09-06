@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Page.css"
 
 function Page({title, content, className}) {
