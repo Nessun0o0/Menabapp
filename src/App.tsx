@@ -3,6 +3,7 @@ import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import logo from './logo.svg';
 import './App.css';
 import Canvas from './Canvas';
+import Page from './Page';
 
 function App() {
 
@@ -16,9 +17,12 @@ function App() {
   return (
     <div className='container'>
       <textarea id='text' name='text' value={text} onChange={handleTextChange}>  </textarea>
+      
       <TransformWrapper>
         <TransformComponent>
-          <img src={logo} alt='test' className='prova'></img>
+          <div className={"prova"}>
+            <Page title={"bella"} content={"ecco qua vediamo se funziona"}/>
+          </div>
         </TransformComponent>
       </TransformWrapper>
     </div>
