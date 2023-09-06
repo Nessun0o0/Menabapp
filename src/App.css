@@ -1,51 +1,6 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  height: 100%;
+App {
+  background: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 textarea {
   resize:none;
@@ -54,20 +9,52 @@ textarea {
 }
 
 html, body {
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
 }
-canvas {
-  width: 65%;
-  height: 100vh;
-}
+
+/* .prova {
+  position: relative;
+  float: right;
+  width: 65vw;
+  background-color: grey;
+  height:100vh;
+  display:grid;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  z-index: 1;
+} */
 
 .prova {
-  width: 65%;
-  height: 100vh;
+  overflow-y: scroll;
+  background-color: green;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows: 50%;
+
+}
+
+.c-left {
+  justify-self: left;
+}
+
+.left {
+  justify-self: right;
+}
+
+.right {
+  justify-self: left;
+}
+
+.c-right {
+  justify-self: right;
 }

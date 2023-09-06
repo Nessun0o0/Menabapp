@@ -1,10 +1,11 @@
 import React from "react";
 import "./Page.css"
 
-function Page() {
+function Page({title, content, className}) {
     return (
-        <div className="A4">
-            <p>bella zio</p>
+        <div className={"A4 " + className}>
+            <h2>{title}</h2>
+            <p>{content}</p>
         </div>
     )
 }
