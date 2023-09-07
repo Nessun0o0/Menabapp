@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className='container'>
-      <textarea id='textArea' name='textArea' value={text} onChange={handleTextChange} placeholder='Start a line with "#" to create a new page'>    </textarea>
+      <textarea id='textArea' name='textArea' value={text} onChange={handleTextChange} placeholder='Add a new line to create a new page. Start a line with "-" to write the content of the page.'>    </textarea>
       <p className='counter'>{counter}</p>
       <button className={"print"} onClick={printHandler}>PDF</button>
       <div className={"grid"} ref={pdfRef}>
