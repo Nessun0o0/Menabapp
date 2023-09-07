@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Menabapp/static/css/main.1a215271.css",
-    "main.js": "/Menabapp/static/js/main.96a19191.js",
+    "main.js": "/Menabapp/static/js/main.bb322294.js",
     "static/js/703.62d12493.chunk.js": "/Menabapp/static/js/703.62d12493.chunk.js",
     "static/js/9.fc62a367.chunk.js": "/Menabapp/static/js/9.fc62a367.chunk.js",
     "static/js/787.74581854.chunk.js": "/Menabapp/static/js/787.74581854.chunk.js",
     "index.html": "/Menabapp/index.html",
     "main.1a215271.css.map": "/Menabapp/static/css/main.1a215271.css.map",
-    "main.96a19191.js.map": "/Menabapp/static/js/main.96a19191.js.map",
+    "main.bb322294.js.map": "/Menabapp/static/js/main.bb322294.js.map",
     "703.62d12493.chunk.js.map": "/Menabapp/static/js/703.62d12493.chunk.js.map",
     "9.fc62a367.chunk.js.map": "/Menabapp/static/js/9.fc62a367.chunk.js.map",
     "787.74581854.chunk.js.map": "/Menabapp/static/js/787.74581854.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a215271.css",
-    "static/js/main.96a19191.js"
+    "static/js/main.bb322294.js"
   ]
 }
